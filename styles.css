@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,100&display=swap');
-@font-face { font-family: Brandon Grotesque ; font-weight: light; src: url('./fonts/Brandon\ Grotesque\ Light.otf');}
 
 body{
   margin:0;
@@ -7,28 +6,20 @@ body{
   font-family: 'Montserrat', sans-serif;
   display: flex;
   justify-content: center;
-  align-items: center;
   height: 100vh;
   flex-direction: column;
   text-transform: uppercase;
 }
 
-h1{
-  font-family: brandon grotesque;
-}
-
 .logo{
   text-align: center;
-  letter-spacing: 5px;
   /* border: 1px solid red;  */
 }
 
 .container{
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-top: 5.5vh;
-  /* border: 1px solid blue; */
+  justify-content: center;
+  padding-top: 7vh;
   font-size: 13.28px;
 }
 
@@ -56,7 +47,8 @@ padding-right: 15px;
 }
 
 h5{
-  padding-top: 5.5vh;
+  letter-spacing: 7px;
+  padding-top: 7vh;
   margin: 0;
 }
 
@@ -65,8 +57,66 @@ img{
 }
 
 
-@media only screen and (max-width: 768px) {
-  body {
-    background-color: lightblue;
+@media only screen and (max-width: 1024px) {
+  img{
+    width: 40vh;
+  }
+
+  h5{
+    /* padding-top: 7vh; */
+    letter-spacing: 3px;
+    margin: 0;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  h5{
+    /* padding-top: 7vh; */
+    letter-spacing: 2px;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+ body{
+   /* background-color: red; */
+   /* display: flex; */
+   margin: 0;
+   padding: 0;
+ }
+
+ img{
+  width: 30vh;
+}
+  h5{
+    padding-top: 4vh;
+    /* letter-spacing: 2px; */
+    margin: 0;
+    font-size: 13px;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+    padding: 4vh 7vh;
+  }
+
+  .container div{
+      padding-right: 0px;
+    }
+    
+    .container div:nth-child(1){
+      padding-left: 0px;
+    }
+    
+    .container p{
+      padding-left: 0px;
+    }
+
+    .container img{
+      /* border: 1px solid red; */
+      padding-right: 5px;
+    }
+
+  }
