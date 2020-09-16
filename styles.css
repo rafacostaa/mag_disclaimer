@@ -17,28 +17,31 @@ body{
 
 .container{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 7vh;
+  padding-left: 55px;
   font-size: 13.28px;
-  margin: 0 35vh;
-  /* border: 1px solid red; */
-  padding-left: 60px; 
+  margin: 0 290px;
+  /* border: 1px solid red;  */
 }
 
-.container div{
-  align-content: center;
-display: flex;
-/* padding-right: 15px; */
+.contato{
+  display: flex;
 }
+
+/* .container div{
+  align-content: center;
+padding-right: 35px;
+} */
 
 /* .container div:nth-child(1){ */
   /* border: 1px solid red; */
   /* padding-left: 15px; */
 /* } */
 
-.container p{
+/* .container p{
   padding-left: 5px;
-}
+} */
 
 .container div p a {
   color:black;
@@ -47,15 +50,16 @@ display: flex;
 
 .icon{
   width: 30px;
+  padding-right: 5px;
 }
 
-h5{
+.logo h5{
   letter-spacing: 7px;
   padding-top: 7vh;
   margin: 0;
 }
 
-img{
+.logo img{
   width: 60vh;
 }
 
