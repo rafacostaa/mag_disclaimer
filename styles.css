@@ -9,25 +9,32 @@ body{
   align-items: center;
   height: 100vh;
   flex-direction: column;
+  text-transform: uppercase;
 }
 
 .logo{
   text-align: center;
   letter-spacing: 5px;
-  text-transform: uppercase;
-  border: 1px solid red; 
+  /* border: 1px solid red;  */
 }
 
 .container{
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   padding-top: 5.5vh;
-    border: 1px solid blue;
+  /* border: 1px solid blue; */
+  font-size: 13.28px;
 }
 
 .container div{
 display: flex;
-padding-right: 10px;
+padding-right: 15px;
+}
+
+.container div:nth-child(1){
+  /* border: 1px solid red; */
+  padding-left: 15px;
 }
 
 .container p{
@@ -45,6 +52,7 @@ padding-right: 10px;
 
 h5{
   padding-top: 5.5vh;
+  margin: 0;
 }
 
 img{
