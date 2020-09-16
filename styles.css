@@ -99,7 +99,7 @@ img{
     display: flex;
     flex-direction: column;
     /* border: 1px solid blue; */
-    padding: 4vh 7vh;
+    padding: 4vh 8vh;
   }
 
   .container div{
