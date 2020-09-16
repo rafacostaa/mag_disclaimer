@@ -1,13 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,100&display=swap');
 
 body{
+  margin:0;
   background-color: rgba(219,212,196);
   font-family: 'Montserrat', sans-serif;
-  display: flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 div:nth-child(1){
   text-align: center;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   text-transform: uppercase;
+  border: 1px solid red; 
+}
+
+h5{
+  padding-top: 50px;
+}
+
+img{
+  width: 70vh;
 }
