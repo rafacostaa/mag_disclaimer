@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,100&display=swap');
+@font-face { font-family: Brandon Grotesque ; font-weight: light; src: url('./fonts/Brandon\ Grotesque\ Light.otf');}
 
 body{
   margin:0;
@@ -10,6 +11,10 @@ body{
   height: 100vh;
   flex-direction: column;
   text-transform: uppercase;
+}
+
+h1{
+  font-family: brandon grotesque;
 }
 
 .logo{
@@ -56,5 +61,12 @@ h5{
 }
 
 img{
-  width: 70vh;
+  width: 60vh;
+}
+
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: lightblue;
+  }
 }
