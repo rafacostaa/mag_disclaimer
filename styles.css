@@ -113,7 +113,7 @@ body{
 
 @media only screen and (max-width: 375px) {
   .disclaimer{
-    height: 500px;
+    /* height: 500px; */
   }
 
   .logo img{
