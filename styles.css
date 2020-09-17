@@ -30,15 +30,15 @@ body{
   letter-spacing: 7px;
   padding-top: 100px;
   margin: 0;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .container{
   /* border: 1px solid green; */
   display: flex;
   padding: 100px 0px 0px;
-  font-size: 22px;
-  width: 950px;
+  font-size: 20px;
+  width: 550px;
   justify-content: space-between;
 }
 
