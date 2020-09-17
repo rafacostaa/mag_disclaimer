@@ -58,7 +58,7 @@ body{
 
 @media only screen and (max-width: 1024px) {
   .disclaimer{
-    height: 1000px;
+    height: 800px;
     padding-top: 250px;
   }
 
@@ -88,7 +88,7 @@ body{
 
 @media only screen and (max-width: 768px) {
   .disclaimer{
-    height: 800px;
+    height: 600px;
     padding-top: 180px;
   }
 
@@ -113,7 +113,7 @@ body{
 
 @media only screen and (max-width: 375px) {
   .disclaimer{
-    height: 700px;
+    height: 500px;
   }
 
   .logo img{
