@@ -59,7 +59,7 @@ body{
 @media only screen and (max-width: 1024px) {
   .disclaimer{
     height: 800px;
-    padding-top: 250px;
+    padding-top: 200px;
   }
 
  .logo img{
@@ -89,7 +89,7 @@ body{
 @media only screen and (max-width: 768px) {
   .disclaimer{
     height: 600px;
-    padding-top: 180px;
+    padding-top: 130px;
   }
 
   .logo h5{
