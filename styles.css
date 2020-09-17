@@ -8,36 +8,38 @@ body{
 
 .disclaimer{
   /* border: 1px solid red; */
+  height:90vh;
   display: flex;
-  justify-content: center;
-  height: 100vh;
+  align-items: center;
   flex-direction: column;
   text-transform: uppercase;
+  justify-content: center;
+  padding-top: 120px;
 }
 
 .logo img{
-  width: 60vh;
+  width: 70vh;
 }
 
 .logo{
   text-align: center;
-  /* border: 1px solid blue; */
 }
 
 .logo h5{
+  /* border: 1px solid blue; */
   letter-spacing: 7px;
-  padding-top: 7vh;
+  padding-top: 100px;
   margin: 0;
+  font-size: 22px;
 }
 
 .container{
   /* border: 1px solid green; */
   display: flex;
-  justify-content: space-around;
-  padding: 7vh 330px;
-  font-size: 13.28px;
-  /* margin: 0 290px; */
-  /* border: 1px solid red;  */
+  padding: 100px 0px 0px;
+  font-size: 22px;
+  width: 950px;
+  justify-content: space-between;
 }
 
 .contato{
@@ -56,7 +58,8 @@ body{
 
 @media only screen and (max-width: 1024px) {
   .disclaimer{
-    height: 125vh;
+    height: 1000px;
+    padding-top: 250px;
   }
 
  .logo img{
@@ -66,35 +69,51 @@ body{
   .logo h5{
     letter-spacing: 3px;
     font-size: 18px;
+    padding-top: 80px;
+
+  }
+
+  .contato{
+    font-size: 18px;
   }
 
   .container{
-    padding: 7vh 95px;
-    /* border: 1px solid magenta; */
+    padding: 80px 0px 0px;
+    font-size: 22px;
+    width: 680px;
+    justify-content: space-between;
   }
 
 }
 
 @media only screen and (max-width: 768px) {
   .disclaimer{
-    height: 250vh;
+    height: 800px;
+    padding-top: 180px;
   }
 
   .logo h5{
     letter-spacing: 3px;
     font-size: 14px;
+    padding-top: 60px;
+  }
+
+  .contato{
+    font-size: 16px;
   }
 
   .container{
-    padding: 7vh 100px;
-    /* border: 1px solid magenta; */
- }
+    padding: 60px 0px 0px;
+    font-size: 22px;
+    width: 520px;
+    justify-content: space-between;
+  }
 
 }
 
 @media only screen and (max-width: 375px) {
   .disclaimer{
-    height: 230vh;
+    height: 700px;
   }
 
   .logo img{
@@ -104,13 +123,15 @@ body{
   .logo h5{
     letter-spacing: 3px;
     font-size: 12px;
+    padding-top: 40px;
+
   }
 
   .container{
-    /* padding: 7vh 20px; */
+    padding: 40px 0px 0px;
     display: flex;
     flex-direction: column;
-    /* border: 1px solid magenta; */
+    width: 169px;
  }
 
 }
